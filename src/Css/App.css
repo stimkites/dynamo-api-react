@@ -1,0 +1,97 @@
+.App {
+  text-align: center; }
+  .App .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+    height: 80px; }
+  .App .App-header {
+    background-color: #222;
+    height: 130px;
+    padding: 20px;
+    color: white; }
+    .App .App-header h2 {
+      line-height: 1;
+      padding: 0;
+      margin: 0 auto; }
+    .App .App-header .description {
+      font-size: 11px;
+      font-family: monospace;
+      padding: 3px 0; }
+  .App .App-intro {
+    font-size: large; }
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+  .App .listing-wrapper {
+    padding: 20px; }
+  .App .list-table {
+    width: 96%;
+    margin: 20px auto;
+    text-align: left; }
+    .App .list-table td {
+      text-align: left; }
+  .App .edit-form {
+    margin: 0 auto;
+    max-width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start; }
+    .App .edit-form label {
+      text-align: left;
+      width: 300px;
+      max-height: 100px;
+      display: block;
+      margin: 10px auto; }
+    .App .edit-form button {
+      width: 100px;
+      margin: 10px auto; }
+    .App .edit-form textarea,
+    .App .edit-form input,
+    .App .edit-form select {
+      display: block;
+      box-sizing: border-box;
+      width: 300px; }
+  .App .hidden {
+    display: none !important; }
+  .App .content {
+    border-top: 2px solid #ccc; }
+    .App .content .loading {
+      margin: 80px auto;
+      height: 64px;
+      border: none;
+      width: 64px;
+      background: #fff url(../../public/img/loading.svg) center center no-repeat;
+      background-size: contain; }
+    .App .content .login-errors {
+      font-size: 12px;
+      font-family: monospace;
+      color: orangered; }
+    .App .content .logout {
+      color: #fff;
+      position: absolute;
+      right: 30px;
+      top: 30px; }
+      .App .content .logout .logout-button {
+        border: 2px solid #999;
+        border-radius: 100%;
+        height: 22px;
+        width: 22px;
+        background: transparent;
+        margin: 0 0 0 15px;
+        padding: 0 3px;
+        vertical-align: middle;
+        color: #999;
+        font-family: Tahoma, sans-serif;
+        cursor: pointer; }
+        .App .content .logout .logout-button:after {
+          content: "x";
+          font-size: 15px;
+          line-height: 1;
+          font-weight: bold; }
+        .App .content .logout .logout-button:hover {
+          color: #fff;
+          border: 2px solid #fff; }
+
+/*# sourceMappingURL=App.css.map */
